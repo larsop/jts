@@ -33,6 +33,7 @@ Distributions for older JTS versions can be obtained at the
 * Add `GeometryFixer` option to preserve `Multi` geometry types when collapses occur (#791)
 * Make `QuadTree` thread-safe (#792)
 * Allow specifying a fixed `PrecisionModel` via grid size (#804)
+* Add `OffsetCurve` class (#810, #816)
 
 ### Bug Fixes
 
@@ -43,6 +44,7 @@ Distributions for older JTS versions can be obtained at the
 * Fix various operations to handle XYZM geometry (#795)
 * Fix `SnapRoundingNoder` to use tolerance in noding (also fixes `GeometryPrecisionReducer`) (#802)
 * Fix `MaximumInscribedCircle` to avoid infinite-looping on flat collapsed input (#807)
+* Add OverlayNG result area heuristic check (#812)
 
 # Version 1.18.2
 
